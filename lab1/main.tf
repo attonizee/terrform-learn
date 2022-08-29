@@ -1,12 +1,4 @@
-terraform {
-  cloud {
-    organization = "attonizee"
 
-    workspaces {
-      name = "terraform-tutorial-environment"
-    }
-  }
-}
 provider "aws" {
   region = "eu-west-2"
 }
